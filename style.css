@@ -1,0 +1,183 @@
+@import url ('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,200&display=swap');
+*	
+{
+ font-family:'Mulish';
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}	
+body
+{
+ background: lightgrey;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ min-height: 100vh;
+}
+.caixa
+{
+ position: relative;
+ width: 100%;
+ max-width: 1000px;
+ min-height: 1000px;
+ background: white;
+ margin: 50px;
+ display: grid;
+ grid-template-columns: 1fr 2fr;
+ box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+.caixa .ladoEsquerdo
+{
+ position: relative;
+ background: #696969;
+ padding: 40px;
+}
+.textoPerfil
+{
+ position: relative;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding-bottom: 30px;
+ border-bottom: 1px solid rgba(255,255,255, 0.2);
+}
+.textoPerfil .imgBx
+{
+ position: relative;
+ width: 200px;
+ height: 200px;
+ border-radius: 50%;
+ overflow: hidden;
+
+}
+.textoPerfil .imgBx img
+{
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+}
+.textoPerfil h2
+{
+ color: black;
+ font-size: 1.3em;
+ margin-top: 20px;
+ text-transform: uppercase;
+ text-align: center;
+ font-weight: 600;
+ line-height: 1.3em;
+}
+.textoPerfil h2 span
+{
+ font-size: 0.8em;
+ font-weight: 300;
+}
+.contatoInfo
+{
+ padding-top: 40px;
+}
+.titulo
+{
+ color: black;
+ text-transform: uppercase;
+ font-weight: 600;
+ letter-spacing: 0.5px;
+ margin-bottom: 20px;
+}
+.contatoInfo ul
+{
+ position: relative;
+}
+.contatoInfo ul li
+{
+ position: relative;
+ list-style: none;
+ margin: 10px 0;
+ cursor: pointer;
+}
+.contatoInfo ul li .icon
+{
+ display: inline-block;
+ width: 30px;
+ font-size: 18px;
+ color: #696969;
+}
+.contatoInfo ul li span 
+{
+ color: black;
+ font-weight: 300;
+}
+.formation 
+{ 
+ position: relative;	
+ letter-spacing: 0.5px;	
+ font-weight: 600;	
+ padding-top: 20px;	
+ display: inline-block;
+ font-size: 16px;
+}
+.formation a 
+{
+ font-weight: bold;
+ font-size: 16px;
+ color: mediumblue;
+ text-decoration: none;
+}
+.formation a:hover
+{	
+ padding: 10px;	
+ transition: 0.8s;
+ color: black;
+ position: relative;
+ overflow: hidden;
+}
+.formation h5
+{
+ font-size: 1em;
+ font-weight: 400;
+}
+.caixa .ladoDireito
+{
+ position: relative;
+ background: white;
+ padding: 40px;
+}
+.about
+{
+ margin-bottom: 50px;
+}
+.about:last-child
+{
+ margin-bottom: 0;
+}
+.titulo2
+{
+ color: black;
+ text-transform: uppercase;
+ letter-spacing: 1px;
+ margin-bottom: 10px;	
+}
+p 
+{
+ color: black;
+ font-size: 20;
+ font-weight: bold;
+}
+.projetos
+{
+ font-weight: bold;
+ font-size: 19px;
+ color: black;
+ letter-spacing: 1px;
+ margin-bottom: 10px;
+
+}
+.projetos a
+{
+ font-weight: bold;
+ font-size: 16px;
+ color: mediumblue;
+ text-decoration: none;
+}
