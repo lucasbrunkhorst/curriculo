@@ -1,4 +1,4 @@
-@import url ('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,200&display=swap');
+
 *	
 {
  font-family:'Mulish';
@@ -146,6 +146,7 @@ body
 }
 .about
 {
+ margin-top: 20px;   
  margin-bottom: 50px;
 }
 .about:last-child
